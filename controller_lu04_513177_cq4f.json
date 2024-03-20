@@ -1,0 +1,39 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+false * true
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+1 + 70,69,77,81,7,40,76,51,56,57,88,52,79,80,12,55,49,95,76,35,16,47,14,32,3,83,63,68,80,13,16,94,34,52,11,41,16,31,47,63,81,95
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+console.log(getRandomString());
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+true - 33
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const multiply = (a, b) => a * b;
+
+const formatDate = date => new Date(date).toLocaleDateString();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const squareRoot = num => Math.sqrt(num);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+console.log(getRandomString());
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const isEven = num => num % 2 === 0;
+const sum = (a, b) => a + b;
